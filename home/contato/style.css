@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+#navegacao {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    background: #ececec;
+    z-index: 200;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(28, 28, 29);
+}
+a:hover{
+    color: orange;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 1.4rem;
+    font-size: 1.3rem;
+}
+main{
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info{
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#endereço{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+#endereço h2 {
+    font-size: 20px;
+}
+
+#textto-contato{
+    margin-bottom: 3rem ;
+}
+input{
+    width: 250px;
+    height: 36px;
+    border-color: #a19d98;
+    outline: none;
+    border-width: 1px;
+
+}
+::placeholder{
+    color: rgb(139, 99, 99);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.input-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+#assunto{
+    width: 506px;
+}
+#mensagem{
+    width: 506px;
+    height: 70px;
+}
+#enviar-botao{
+    position: relative;
+    margin-top: 1rem;
+    width: 100px;
+    height: 40px;
+    background-color: 	#81501f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#enviar-botao:hover{
+    background-color: orange;
+}
+
+
+footer{
+    color: white;
+    margin-top: 10vh;
+    background: #1a1a1ad9;
+    padding: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foorter-contato{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.3rem;
+    font-size: 1.4rem;
+    flex-wrap: wrap;
+
+}
+.foorter-contato  p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-size: 1.1rem;
+    gap: 1rem;
+}
+.Política-de-Privacidade{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    background: #0a0a0ae6;
+    padding: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+}
+
+.mobile-menu div{
+width: 32px;
+height: 2px;
+background: rgb(0, 0, 0);
+margin: 8px;
+}
+.mobile-menu{
+    display: none;
+    position: absolute;
+cursor: pointer;
+z-index: 10000;
+}
+
+/* MENUUUUU */
+@media screen and (max-width:940px) {
+.mobile-menu{
+    display: block;
+    padding: 10px;
+}
+#navegacao{
+    background: #fff;
+}
+a{
+    color: white;
+}
+
+#menu{
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0;
+    height: 0px;
+    transition: .5s;
+    background: #3a3434;
+}
+#nav.active #menu {
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    visibility: visible;
+    overflow-y: auto;
+
+}
+
+    
+}
+
+@media screen and (max-width:600px) {
+    #navegacao{
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    
+    .contato{
+        margin-top: 8.3rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #assunto{
+        width: 340px;
+    }
+    #mensagem{
+        width: 340px;
+    }
+    input{
+        width: 340px;
+    }
+    #logo{
+        width: 70px;
+
+    }
+    .mobile-menu{
+        position: absolute;
+        top: 0;
+    }
+    main {
+        padding: 20px;
+    }
+    .info{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #h11{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .Política-de-Privacidade{
+        text-align: center;
+
+    }
+     .imagens{ 
+         display: flex;
+         gap: 1.3rem;
+     }
+}

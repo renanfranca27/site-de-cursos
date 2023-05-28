@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url(src/fundo-home.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#navegacao {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: orange;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 1.4rem;
+    font-size: 1.3rem;
+}
+#Home{
+    display: flex;
+    margin-top:10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.6rem;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap:wrap ;
+    word-wrap: normal break-word;
+}
+
+#home-texto1{
+    font-size: 1.6rem;
+    color: orange;
+}
+#home-texto{
+    font-size: 1.5rem;
+}
+input{
+    color: white;
+    background: orange;
+    border:none;
+    width: 300px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+button{
+    color: white;
+    background: orange;
+    border:none;
+    width: 300px;
+    height: 50px;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#botao-home{
+    display: flex;
+    flex-direction: column;
+    width: 32px;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 6vh;
+}
+
+#texto-meio{
+    margin-top: 8vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#Simulados {
+    margin-top: 20vh;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+}
+
+#itapema{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#simulados-meio{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    flex-wrap: wrap;
+
+}
+#Canoas{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+}
+#campina-grande{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#osaso-sp{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+#objetivos{
+    display: flex;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    gap: 2rem;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+#texto-simulados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+#evolucao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+#Aplicação{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+#Resultados{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+#oque-fazemos{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+}
+#contatos-home{
+    margin-top: 4rem;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+footer{
+    color: white;
+    margin-top: 10vh;
+    background: #1a1a1ad9;
+    padding: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foorter-contato{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.3rem;
+    font-size: 1.4rem;
+    flex-wrap: wrap;
+
+}
+.foorter-contato  p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-size: 1.1rem;
+    gap: 1rem;
+}
+.Política-de-Privacidade{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    background: #0a0a0ae6;
+    padding: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+
+}
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 10000;
+    top: 3vh;
+}
+     /* MENU  */
+
+@media screen and (max-width: 999px) {
+    body{
+        overflow-x:hidden ;
+    }
+    #menu{
+    visibility: hidden;
+   position: absolute;
+   width: 100%;
+   top: 0px;
+   right: 0;
+   background: #3a3434;
+   height:0px;
+   transition: .6s;
+   overflow-y: hidden;
+    }
+    .mobile-menu{
+        display: block;
+        padding: 10px;
+    }
+    #nav.active #menu{
+        height:calc(100vh );
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        margin: 0;
+        padding: 0;
+        position: unset;
+
+
+    }
+    header{
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    
+    .mobile-menu{
+        margin-left: 40vh;
+    }
+    #navegacao{
+        display: block;
+        align-items: center;
+        padding: 1.3rem;
+    }
+    #home-texto{
+        display: flex;
+        align-items: center;
+        font-size: 1.1rem;
+        justify-content: center;
+        padding: 10px;
+        
+    }
+    #home-texto1{
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        padding: 10px;
+    }
+    #home-texto2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight:900;
+    }
+    #oque-fazemos{
+        font-size: 1.4rem;
+    }
+    main{
+        padding: 10px;
+    }
+    .Política-de-Privacidade p{
+        text-align: center;
+    }
+    #botao-home{
+        display: flex;
+        flex-direction: column;
+        width: 40px;
+        margin-top: 7vh;
+        gap: 1.7rem;
+    }
+    #logo{
+        width: 60px;
+    }
+
+}
